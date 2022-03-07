@@ -1,0 +1,12 @@
+[package]
+name = "rt"
+version = "0.1.0"
+
+[dependencies]
+ndarray = "0.15.4"
+png = "0.17.5"
+itertools = "0.10.3"
+
+[[bin]]
+name = "raytrace"
+path = "src/main.rs"
